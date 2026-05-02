@@ -267,6 +267,7 @@ function renderDoctors(doctors) {
 
   doctors.forEach((doctor) => {
     const card = document.createElement("div");
+    card.style.cursor = "pointer";
     card.className = "doctor-card";
 
     const displayName = formatDoctorName(doctor);
@@ -319,7 +320,25 @@ function renderDoctors(doctors) {
     btn?.addEventListener("click", async () => {
       await toggleDoctorSlots(doctor, slotExpand, btn);
     });
+card.addEventListener("click", (e) => {
+  if (e.target.closest(".doctor-slot-btn")) return;
 
+  alert(
+    `Tên: ${safeText(displayName)}
+Tuổi: ${safeText(doctor.age) || "Chưa cập nhật"}
+Chuyên khoa: ${safeText(doctor.department)}
+Kinh nghiệm: ${safeText(doctor.experience_years)} năm
+Nơi làm việc: ${safeText(doctor.hospital)}
+Thời gian làm việc: ${safeText(doctor.working_time)}
+Phí khám: ${formatCurrency(doctor.fee)}
+SĐT: ${safeText(doctor.phone)}
+Email: ${safeText(doctor.email)}
+Đánh giá: ${formatRating(doctor.rating)}
+
+Mô tả:
+${safeText(doctor.description)}`
+  );
+});
     container.appendChild(card);
   });
 }
