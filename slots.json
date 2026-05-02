@@ -1,0 +1,4610 @@
+[
+  {
+    "id": 1,
+    "doctor_id": 1,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": true,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 2,
+    "doctor_id": 1,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": true,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 3,
+    "doctor_id": 1,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": true,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 4,
+    "doctor_id": 1,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": true,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 5,
+    "doctor_id": 1,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": true,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 6,
+    "doctor_id": 1,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 7,
+    "doctor_id": 1,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 8,
+    "doctor_id": 1,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 9,
+    "doctor_id": 1,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 10,
+    "doctor_id": 1,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 11,
+    "doctor_id": 1,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 12,
+    "doctor_id": 1,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": true,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 13,
+    "doctor_id": 1,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 14,
+    "doctor_id": 1,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": true,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 15,
+    "doctor_id": 1,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 16,
+    "doctor_id": 1,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 17,
+    "doctor_id": 1,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 18,
+    "doctor_id": 1,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 19,
+    "doctor_id": 2,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 20,
+    "doctor_id": 2,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 21,
+    "doctor_id": 2,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 22,
+    "doctor_id": 2,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 23,
+    "doctor_id": 2,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 24,
+    "doctor_id": 2,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 25,
+    "doctor_id": 2,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 26,
+    "doctor_id": 2,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 27,
+    "doctor_id": 2,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 28,
+    "doctor_id": 2,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 29,
+    "doctor_id": 2,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 30,
+    "doctor_id": 2,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 31,
+    "doctor_id": 2,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 32,
+    "doctor_id": 2,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 33,
+    "doctor_id": 2,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 34,
+    "doctor_id": 2,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 35,
+    "doctor_id": 2,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 36,
+    "doctor_id": 2,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 37,
+    "doctor_id": 3,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 38,
+    "doctor_id": 3,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 39,
+    "doctor_id": 3,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 40,
+    "doctor_id": 3,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 41,
+    "doctor_id": 3,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 42,
+    "doctor_id": 3,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 43,
+    "doctor_id": 3,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 44,
+    "doctor_id": 3,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 45,
+    "doctor_id": 3,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 46,
+    "doctor_id": 3,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 47,
+    "doctor_id": 3,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 48,
+    "doctor_id": 3,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 49,
+    "doctor_id": 3,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 50,
+    "doctor_id": 3,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 51,
+    "doctor_id": 3,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 52,
+    "doctor_id": 3,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 53,
+    "doctor_id": 3,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 54,
+    "doctor_id": 3,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 55,
+    "doctor_id": 4,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 56,
+    "doctor_id": 4,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 57,
+    "doctor_id": 4,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 58,
+    "doctor_id": 4,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 59,
+    "doctor_id": 4,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 60,
+    "doctor_id": 4,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 61,
+    "doctor_id": 4,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 62,
+    "doctor_id": 4,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 63,
+    "doctor_id": 4,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 64,
+    "doctor_id": 4,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 65,
+    "doctor_id": 4,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 66,
+    "doctor_id": 4,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 67,
+    "doctor_id": 4,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 68,
+    "doctor_id": 4,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 69,
+    "doctor_id": 4,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 70,
+    "doctor_id": 4,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 71,
+    "doctor_id": 4,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 72,
+    "doctor_id": 4,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 73,
+    "doctor_id": 5,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 74,
+    "doctor_id": 5,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 75,
+    "doctor_id": 5,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 76,
+    "doctor_id": 5,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 77,
+    "doctor_id": 5,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 78,
+    "doctor_id": 5,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 79,
+    "doctor_id": 5,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": true,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 80,
+    "doctor_id": 5,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 81,
+    "doctor_id": 5,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 82,
+    "doctor_id": 5,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 83,
+    "doctor_id": 5,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 84,
+    "doctor_id": 5,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 85,
+    "doctor_id": 5,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 86,
+    "doctor_id": 5,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 87,
+    "doctor_id": 5,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 88,
+    "doctor_id": 5,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 89,
+    "doctor_id": 5,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 90,
+    "doctor_id": 5,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 91,
+    "doctor_id": 6,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 92,
+    "doctor_id": 6,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 93,
+    "doctor_id": 6,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 94,
+    "doctor_id": 6,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 95,
+    "doctor_id": 6,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 96,
+    "doctor_id": 6,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 97,
+    "doctor_id": 6,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 98,
+    "doctor_id": 6,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 99,
+    "doctor_id": 6,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 100,
+    "doctor_id": 6,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 101,
+    "doctor_id": 6,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 102,
+    "doctor_id": 6,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 103,
+    "doctor_id": 6,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 104,
+    "doctor_id": 6,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 105,
+    "doctor_id": 6,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 106,
+    "doctor_id": 6,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 107,
+    "doctor_id": 6,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 108,
+    "doctor_id": 6,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 109,
+    "doctor_id": 7,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 110,
+    "doctor_id": 7,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 111,
+    "doctor_id": 7,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 112,
+    "doctor_id": 7,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 113,
+    "doctor_id": 7,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 114,
+    "doctor_id": 7,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 115,
+    "doctor_id": 7,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 116,
+    "doctor_id": 7,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 117,
+    "doctor_id": 7,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 118,
+    "doctor_id": 7,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 119,
+    "doctor_id": 7,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 120,
+    "doctor_id": 7,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 121,
+    "doctor_id": 7,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 122,
+    "doctor_id": 7,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 123,
+    "doctor_id": 7,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 124,
+    "doctor_id": 7,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 125,
+    "doctor_id": 7,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 126,
+    "doctor_id": 7,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 127,
+    "doctor_id": 8,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 128,
+    "doctor_id": 8,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 129,
+    "doctor_id": 8,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 130,
+    "doctor_id": 8,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 131,
+    "doctor_id": 8,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 132,
+    "doctor_id": 8,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 133,
+    "doctor_id": 8,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 134,
+    "doctor_id": 8,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 135,
+    "doctor_id": 8,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 136,
+    "doctor_id": 8,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 137,
+    "doctor_id": 8,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 138,
+    "doctor_id": 8,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 139,
+    "doctor_id": 8,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 140,
+    "doctor_id": 8,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 141,
+    "doctor_id": 8,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 142,
+    "doctor_id": 8,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 143,
+    "doctor_id": 8,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 144,
+    "doctor_id": 8,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 145,
+    "doctor_id": 9,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 146,
+    "doctor_id": 9,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 147,
+    "doctor_id": 9,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 148,
+    "doctor_id": 9,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 149,
+    "doctor_id": 9,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 150,
+    "doctor_id": 9,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 151,
+    "doctor_id": 9,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 152,
+    "doctor_id": 9,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 153,
+    "doctor_id": 9,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 154,
+    "doctor_id": 9,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 155,
+    "doctor_id": 9,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 156,
+    "doctor_id": 9,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 157,
+    "doctor_id": 9,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 158,
+    "doctor_id": 9,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 159,
+    "doctor_id": 9,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 160,
+    "doctor_id": 9,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 161,
+    "doctor_id": 9,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 162,
+    "doctor_id": 9,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 163,
+    "doctor_id": 10,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 164,
+    "doctor_id": 10,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 165,
+    "doctor_id": 10,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 166,
+    "doctor_id": 10,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 167,
+    "doctor_id": 10,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 168,
+    "doctor_id": 10,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 169,
+    "doctor_id": 10,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 170,
+    "doctor_id": 10,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 171,
+    "doctor_id": 10,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 172,
+    "doctor_id": 10,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 173,
+    "doctor_id": 10,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 174,
+    "doctor_id": 10,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 175,
+    "doctor_id": 10,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 176,
+    "doctor_id": 10,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 177,
+    "doctor_id": 10,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 178,
+    "doctor_id": 10,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 179,
+    "doctor_id": 10,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 180,
+    "doctor_id": 10,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 181,
+    "doctor_id": 11,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 182,
+    "doctor_id": 11,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 183,
+    "doctor_id": 11,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 184,
+    "doctor_id": 11,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 185,
+    "doctor_id": 11,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 186,
+    "doctor_id": 11,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 187,
+    "doctor_id": 11,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 188,
+    "doctor_id": 11,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 189,
+    "doctor_id": 11,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 190,
+    "doctor_id": 11,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 191,
+    "doctor_id": 11,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 192,
+    "doctor_id": 11,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 193,
+    "doctor_id": 11,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 194,
+    "doctor_id": 11,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 195,
+    "doctor_id": 11,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 196,
+    "doctor_id": 11,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 197,
+    "doctor_id": 11,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 198,
+    "doctor_id": 11,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 199,
+    "doctor_id": 12,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 200,
+    "doctor_id": 12,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 201,
+    "doctor_id": 12,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 202,
+    "doctor_id": 12,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 203,
+    "doctor_id": 12,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 204,
+    "doctor_id": 12,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 205,
+    "doctor_id": 12,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 206,
+    "doctor_id": 12,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 207,
+    "doctor_id": 12,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 208,
+    "doctor_id": 12,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 209,
+    "doctor_id": 12,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 210,
+    "doctor_id": 12,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 211,
+    "doctor_id": 12,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 212,
+    "doctor_id": 12,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 213,
+    "doctor_id": 12,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 214,
+    "doctor_id": 12,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 215,
+    "doctor_id": 12,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 216,
+    "doctor_id": 12,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 217,
+    "doctor_id": 13,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 218,
+    "doctor_id": 13,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 219,
+    "doctor_id": 13,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 220,
+    "doctor_id": 13,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 221,
+    "doctor_id": 13,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 222,
+    "doctor_id": 13,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 223,
+    "doctor_id": 13,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 224,
+    "doctor_id": 13,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 225,
+    "doctor_id": 13,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 226,
+    "doctor_id": 13,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 227,
+    "doctor_id": 13,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 228,
+    "doctor_id": 13,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 229,
+    "doctor_id": 13,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 230,
+    "doctor_id": 13,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 231,
+    "doctor_id": 13,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 232,
+    "doctor_id": 13,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 233,
+    "doctor_id": 13,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 234,
+    "doctor_id": 13,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 235,
+    "doctor_id": 14,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 236,
+    "doctor_id": 14,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 237,
+    "doctor_id": 14,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 238,
+    "doctor_id": 14,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 239,
+    "doctor_id": 14,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 240,
+    "doctor_id": 14,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 241,
+    "doctor_id": 14,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 242,
+    "doctor_id": 14,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 243,
+    "doctor_id": 14,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 244,
+    "doctor_id": 14,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 245,
+    "doctor_id": 14,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 246,
+    "doctor_id": 14,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 247,
+    "doctor_id": 14,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 248,
+    "doctor_id": 14,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 249,
+    "doctor_id": 14,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 250,
+    "doctor_id": 14,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 251,
+    "doctor_id": 14,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": true,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 252,
+    "doctor_id": 14,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 253,
+    "doctor_id": 15,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 254,
+    "doctor_id": 15,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 255,
+    "doctor_id": 15,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 256,
+    "doctor_id": 15,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 257,
+    "doctor_id": 15,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 258,
+    "doctor_id": 15,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 259,
+    "doctor_id": 15,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 260,
+    "doctor_id": 15,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 261,
+    "doctor_id": 15,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 262,
+    "doctor_id": 15,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 263,
+    "doctor_id": 15,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 264,
+    "doctor_id": 15,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 265,
+    "doctor_id": 15,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 266,
+    "doctor_id": 15,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 267,
+    "doctor_id": 15,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 268,
+    "doctor_id": 15,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 269,
+    "doctor_id": 15,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 270,
+    "doctor_id": 15,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 271,
+    "doctor_id": 16,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 272,
+    "doctor_id": 16,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 273,
+    "doctor_id": 16,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 274,
+    "doctor_id": 16,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 275,
+    "doctor_id": 16,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 276,
+    "doctor_id": 16,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 277,
+    "doctor_id": 16,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 278,
+    "doctor_id": 16,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 279,
+    "doctor_id": 16,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 280,
+    "doctor_id": 16,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 281,
+    "doctor_id": 16,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 282,
+    "doctor_id": 16,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 283,
+    "doctor_id": 16,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 284,
+    "doctor_id": 16,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 285,
+    "doctor_id": 16,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 286,
+    "doctor_id": 16,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 287,
+    "doctor_id": 16,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 288,
+    "doctor_id": 16,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 289,
+    "doctor_id": 17,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 290,
+    "doctor_id": 17,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 291,
+    "doctor_id": 17,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 292,
+    "doctor_id": 17,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 293,
+    "doctor_id": 17,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 294,
+    "doctor_id": 17,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 295,
+    "doctor_id": 17,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 296,
+    "doctor_id": 17,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 297,
+    "doctor_id": 17,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 298,
+    "doctor_id": 17,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 299,
+    "doctor_id": 17,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 300,
+    "doctor_id": 17,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 301,
+    "doctor_id": 17,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 302,
+    "doctor_id": 17,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 303,
+    "doctor_id": 17,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 304,
+    "doctor_id": 17,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 305,
+    "doctor_id": 17,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 306,
+    "doctor_id": 17,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 307,
+    "doctor_id": 18,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 308,
+    "doctor_id": 18,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 309,
+    "doctor_id": 18,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 310,
+    "doctor_id": 18,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 311,
+    "doctor_id": 18,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 312,
+    "doctor_id": 18,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 313,
+    "doctor_id": 18,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 314,
+    "doctor_id": 18,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 315,
+    "doctor_id": 18,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 316,
+    "doctor_id": 18,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 317,
+    "doctor_id": 18,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 318,
+    "doctor_id": 18,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 319,
+    "doctor_id": 18,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 320,
+    "doctor_id": 18,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 321,
+    "doctor_id": 18,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 322,
+    "doctor_id": 18,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 323,
+    "doctor_id": 18,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 324,
+    "doctor_id": 18,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 325,
+    "doctor_id": 19,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 326,
+    "doctor_id": 19,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 327,
+    "doctor_id": 19,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 328,
+    "doctor_id": 19,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 329,
+    "doctor_id": 19,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 330,
+    "doctor_id": 19,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 331,
+    "doctor_id": 19,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 332,
+    "doctor_id": 19,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 333,
+    "doctor_id": 19,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 334,
+    "doctor_id": 19,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 335,
+    "doctor_id": 19,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 336,
+    "doctor_id": 19,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 337,
+    "doctor_id": 19,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 338,
+    "doctor_id": 19,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 339,
+    "doctor_id": 19,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 340,
+    "doctor_id": 19,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 341,
+    "doctor_id": 19,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 342,
+    "doctor_id": 19,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 343,
+    "doctor_id": 20,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 344,
+    "doctor_id": 20,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 345,
+    "doctor_id": 20,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 346,
+    "doctor_id": 20,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 347,
+    "doctor_id": 20,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 348,
+    "doctor_id": 20,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 349,
+    "doctor_id": 20,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 350,
+    "doctor_id": 20,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 351,
+    "doctor_id": 20,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 352,
+    "doctor_id": 20,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 353,
+    "doctor_id": 20,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 354,
+    "doctor_id": 20,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 355,
+    "doctor_id": 20,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 356,
+    "doctor_id": 20,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 357,
+    "doctor_id": 20,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 358,
+    "doctor_id": 20,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 359,
+    "doctor_id": 20,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 360,
+    "doctor_id": 20,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 361,
+    "doctor_id": 21,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 362,
+    "doctor_id": 21,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 363,
+    "doctor_id": 21,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 364,
+    "doctor_id": 21,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 365,
+    "doctor_id": 21,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 366,
+    "doctor_id": 21,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 367,
+    "doctor_id": 21,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 368,
+    "doctor_id": 21,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 369,
+    "doctor_id": 21,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 370,
+    "doctor_id": 21,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 371,
+    "doctor_id": 21,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 372,
+    "doctor_id": 21,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 373,
+    "doctor_id": 21,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 374,
+    "doctor_id": 21,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 375,
+    "doctor_id": 21,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 376,
+    "doctor_id": 21,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 377,
+    "doctor_id": 21,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 378,
+    "doctor_id": 21,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 379,
+    "doctor_id": 22,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 380,
+    "doctor_id": 22,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 381,
+    "doctor_id": 22,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 382,
+    "doctor_id": 22,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 383,
+    "doctor_id": 22,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 384,
+    "doctor_id": 22,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 385,
+    "doctor_id": 22,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 386,
+    "doctor_id": 22,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 387,
+    "doctor_id": 22,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 388,
+    "doctor_id": 22,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 389,
+    "doctor_id": 22,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 390,
+    "doctor_id": 22,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 391,
+    "doctor_id": 22,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 392,
+    "doctor_id": 22,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 393,
+    "doctor_id": 22,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 394,
+    "doctor_id": 22,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 395,
+    "doctor_id": 22,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 396,
+    "doctor_id": 22,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 397,
+    "doctor_id": 23,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 398,
+    "doctor_id": 23,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 399,
+    "doctor_id": 23,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 400,
+    "doctor_id": 23,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 401,
+    "doctor_id": 23,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 402,
+    "doctor_id": 23,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 403,
+    "doctor_id": 23,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 404,
+    "doctor_id": 23,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 405,
+    "doctor_id": 23,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 406,
+    "doctor_id": 23,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 407,
+    "doctor_id": 23,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 408,
+    "doctor_id": 23,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 409,
+    "doctor_id": 23,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 410,
+    "doctor_id": 23,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 411,
+    "doctor_id": 23,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 412,
+    "doctor_id": 23,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 413,
+    "doctor_id": 23,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 414,
+    "doctor_id": 23,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 415,
+    "doctor_id": 24,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 416,
+    "doctor_id": 24,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 417,
+    "doctor_id": 24,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 418,
+    "doctor_id": 24,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 419,
+    "doctor_id": 24,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 420,
+    "doctor_id": 24,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 421,
+    "doctor_id": 24,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 422,
+    "doctor_id": 24,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 423,
+    "doctor_id": 24,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 424,
+    "doctor_id": 24,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 425,
+    "doctor_id": 24,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 426,
+    "doctor_id": 24,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 427,
+    "doctor_id": 24,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 428,
+    "doctor_id": 24,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 429,
+    "doctor_id": 24,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 430,
+    "doctor_id": 24,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 431,
+    "doctor_id": 24,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 432,
+    "doctor_id": 24,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 433,
+    "doctor_id": 25,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 434,
+    "doctor_id": 25,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 435,
+    "doctor_id": 25,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 436,
+    "doctor_id": 25,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 437,
+    "doctor_id": 25,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 438,
+    "doctor_id": 25,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 439,
+    "doctor_id": 25,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 440,
+    "doctor_id": 25,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 441,
+    "doctor_id": 25,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 442,
+    "doctor_id": 25,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 443,
+    "doctor_id": 25,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 444,
+    "doctor_id": 25,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 445,
+    "doctor_id": 25,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 446,
+    "doctor_id": 25,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 447,
+    "doctor_id": 25,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 448,
+    "doctor_id": 25,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 449,
+    "doctor_id": 25,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 450,
+    "doctor_id": 25,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 451,
+    "doctor_id": 26,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 452,
+    "doctor_id": 26,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 453,
+    "doctor_id": 26,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 454,
+    "doctor_id": 26,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 455,
+    "doctor_id": 26,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 456,
+    "doctor_id": 26,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 457,
+    "doctor_id": 26,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 458,
+    "doctor_id": 26,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 459,
+    "doctor_id": 26,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 460,
+    "doctor_id": 26,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 461,
+    "doctor_id": 26,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 462,
+    "doctor_id": 26,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 463,
+    "doctor_id": 26,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 464,
+    "doctor_id": 26,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 465,
+    "doctor_id": 26,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 466,
+    "doctor_id": 26,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 467,
+    "doctor_id": 26,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 468,
+    "doctor_id": 26,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 469,
+    "doctor_id": 27,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 470,
+    "doctor_id": 27,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 471,
+    "doctor_id": 27,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 472,
+    "doctor_id": 27,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 473,
+    "doctor_id": 27,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 474,
+    "doctor_id": 27,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 475,
+    "doctor_id": 27,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 476,
+    "doctor_id": 27,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 477,
+    "doctor_id": 27,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 478,
+    "doctor_id": 27,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 479,
+    "doctor_id": 27,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 480,
+    "doctor_id": 27,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 481,
+    "doctor_id": 27,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 482,
+    "doctor_id": 27,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 483,
+    "doctor_id": 27,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 484,
+    "doctor_id": 27,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 485,
+    "doctor_id": 27,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 486,
+    "doctor_id": 27,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 487,
+    "doctor_id": 28,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 488,
+    "doctor_id": 28,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 489,
+    "doctor_id": 28,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 490,
+    "doctor_id": 28,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 491,
+    "doctor_id": 28,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 492,
+    "doctor_id": 28,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 493,
+    "doctor_id": 28,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 494,
+    "doctor_id": 28,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 495,
+    "doctor_id": 28,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 496,
+    "doctor_id": 28,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 497,
+    "doctor_id": 28,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 498,
+    "doctor_id": 28,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 499,
+    "doctor_id": 28,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 500,
+    "doctor_id": 28,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 501,
+    "doctor_id": 28,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 502,
+    "doctor_id": 28,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 503,
+    "doctor_id": 28,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 504,
+    "doctor_id": 28,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 505,
+    "doctor_id": 29,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 506,
+    "doctor_id": 29,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 507,
+    "doctor_id": 29,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 508,
+    "doctor_id": 29,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 509,
+    "doctor_id": 29,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 510,
+    "doctor_id": 29,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 511,
+    "doctor_id": 29,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 512,
+    "doctor_id": 29,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 513,
+    "doctor_id": 29,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 514,
+    "doctor_id": 29,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 515,
+    "doctor_id": 29,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 516,
+    "doctor_id": 29,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 517,
+    "doctor_id": 29,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 518,
+    "doctor_id": 29,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 519,
+    "doctor_id": 29,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 520,
+    "doctor_id": 29,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 521,
+    "doctor_id": 29,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 522,
+    "doctor_id": 29,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 523,
+    "doctor_id": 30,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 524,
+    "doctor_id": 30,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 525,
+    "doctor_id": 30,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 526,
+    "doctor_id": 30,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 527,
+    "doctor_id": 30,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 528,
+    "doctor_id": 30,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 529,
+    "doctor_id": 30,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 530,
+    "doctor_id": 30,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 531,
+    "doctor_id": 30,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 532,
+    "doctor_id": 30,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 533,
+    "doctor_id": 30,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 534,
+    "doctor_id": 30,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 535,
+    "doctor_id": 30,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 536,
+    "doctor_id": 30,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 537,
+    "doctor_id": 30,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 538,
+    "doctor_id": 30,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 539,
+    "doctor_id": 30,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 540,
+    "doctor_id": 30,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 541,
+    "doctor_id": 31,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 542,
+    "doctor_id": 31,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 543,
+    "doctor_id": 31,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 544,
+    "doctor_id": 31,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 545,
+    "doctor_id": 31,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 546,
+    "doctor_id": 31,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 547,
+    "doctor_id": 31,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 548,
+    "doctor_id": 31,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 549,
+    "doctor_id": 31,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 550,
+    "doctor_id": 31,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 551,
+    "doctor_id": 31,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 552,
+    "doctor_id": 31,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 553,
+    "doctor_id": 31,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 554,
+    "doctor_id": 31,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 555,
+    "doctor_id": 31,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 556,
+    "doctor_id": 31,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 557,
+    "doctor_id": 31,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 558,
+    "doctor_id": 31,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 559,
+    "doctor_id": 32,
+    "slot_start": "2026-03-18 09:00",
+    "slot_end": "2026-03-18 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 560,
+    "doctor_id": 32,
+    "slot_start": "2026-03-18 10:00",
+    "slot_end": "2026-03-18 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 561,
+    "doctor_id": 32,
+    "slot_start": "2026-03-18 11:00",
+    "slot_end": "2026-03-18 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 562,
+    "doctor_id": 32,
+    "slot_start": "2026-03-18 14:00",
+    "slot_end": "2026-03-18 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 563,
+    "doctor_id": 32,
+    "slot_start": "2026-03-18 15:00",
+    "slot_end": "2026-03-18 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 564,
+    "doctor_id": 32,
+    "slot_start": "2026-03-18 16:00",
+    "slot_end": "2026-03-18 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 565,
+    "doctor_id": 32,
+    "slot_start": "2026-03-19 09:00",
+    "slot_end": "2026-03-19 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 566,
+    "doctor_id": 32,
+    "slot_start": "2026-03-19 10:00",
+    "slot_end": "2026-03-19 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 567,
+    "doctor_id": 32,
+    "slot_start": "2026-03-19 11:00",
+    "slot_end": "2026-03-19 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 568,
+    "doctor_id": 32,
+    "slot_start": "2026-03-19 14:00",
+    "slot_end": "2026-03-19 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 569,
+    "doctor_id": 32,
+    "slot_start": "2026-03-19 15:00",
+    "slot_end": "2026-03-19 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 570,
+    "doctor_id": 32,
+    "slot_start": "2026-03-19 16:00",
+    "slot_end": "2026-03-19 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 571,
+    "doctor_id": 32,
+    "slot_start": "2026-03-20 09:00",
+    "slot_end": "2026-03-20 10:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 572,
+    "doctor_id": 32,
+    "slot_start": "2026-03-20 10:00",
+    "slot_end": "2026-03-20 11:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 573,
+    "doctor_id": 32,
+    "slot_start": "2026-03-20 11:00",
+    "slot_end": "2026-03-20 12:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 574,
+    "doctor_id": 32,
+    "slot_start": "2026-03-20 14:00",
+    "slot_end": "2026-03-20 15:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 575,
+    "doctor_id": 32,
+    "slot_start": "2026-03-20 15:00",
+    "slot_end": "2026-03-20 16:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  },
+  {
+    "id": 576,
+    "doctor_id": 32,
+    "slot_start": "2026-03-20 16:00",
+    "slot_end": "2026-03-20 17:00",
+    "is_booked": false,
+    "created_at": "2026-03-18 07:06:35"
+  }
+]

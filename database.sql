@@ -1,0 +1,409 @@
+-- CREATE DATABASE medical_ai
+-- COLLATE Vietnamese_100_CI_AS;
+-- GO
+-- CREATE TABLE departments (
+--     id INT IDENTITY(1,1) PRIMARY KEY,
+--     name NVARCHAR(100) NOT NULL UNIQUE
+-- );
+-- INSERT INTO departments (name) VALUES
+-- (N'Tai Mũi Họng'),
+-- (N'Tim mạch'),
+-- (N'Tiêu hóa'),
+-- (N'Hô hấp'),
+-- (N'Da liễu'),
+-- (N'Thần kinh'),
+-- (N'Cơ xương khớp'),
+-- (N'Nội tổng quát');
+-- USE medical_ai;
+-- GO
+-- CREATE TABLE symptom_dataset (
+--   id BIGINT IDENTITY(1,1) PRIMARY KEY,
+--   [text] NVARCHAR(MAX) NOT NULL,
+--   department_id INT NOT NULL,
+--   source NVARCHAR(30) NOT NULL DEFAULT N'manual',
+--   created_at DATETIME NOT NULL DEFAULT GETDATE(),
+--   CONSTRAINT fk_department
+--     FOREIGN KEY (department_id) REFERENCES departments(id)
+-- );
+-- GO
+-- USE medical_ai;
+-- GO
+-- INSERT INTO symptom_dataset ([text], department_id) VALUES
+-- (N'đau họng, nuốt đau, khàn tiếng', 1),
+-- (N'nghẹt mũi, chảy mũi, hắt hơi liên tục', 1),
+-- (N'ho khan, rát họng, khó chịu cổ họng', 1),
+-- (N'sốt nhẹ kèm đau họng 2 ngày nay', 1),
+-- (N'viêm amidan, đau họng, có đờm', 1),
+-- (N'ù tai, đau tai, nghe kém', 1),
+-- (N'chảy nước mũi vàng, đau vùng xoang', 1),
+-- (N'ho có đờm, đau họng, mệt mỏi', 1),
+-- (N'khô họng, ho về đêm, ngứa họng', 1),
+-- (N'viêm mũi dị ứng, hắt hơi, ngứa mũi', 1);
+-- GO
+-- INSERT INTO symptom_dataset ([text], department_id) VALUES
+-- (N'đau tức ngực, khó thở khi vận động', 2),
+-- (N'tim đập nhanh, hồi hộp, toát mồ hôi', 2),
+-- (N'đau ngực lan tay trái, mệt lả', 2),
+-- (N'khó thở về đêm, phải ngồi mới thở được', 2),
+-- (N'huyết áp cao, đau đầu, chóng mặt', 2),
+-- (N'đánh trống ngực, cảm giác hụt hơi', 2),
+-- (N'tức ngực, tim đập không đều', 2),
+-- (N'mệt khi leo cầu thang, thở gấp', 2),
+-- (N'phù chân nhẹ, nặng ngực', 2),
+-- (N'choáng váng, hồi hộp, tim đập nhanh', 2);
+-- GO
+-- INSERT INTO symptom_dataset ([text], department_id) VALUES
+-- (N'đau bụng, tiêu chảy 2 ngày, mệt', 3),
+-- (N'đau vùng thượng vị, ợ chua, đầy hơi', 3),
+-- (N'buồn nôn, nôn sau ăn, đau bụng', 3),
+-- (N'đầy bụng, khó tiêu, chán ăn', 3),
+-- (N'đau bụng quặn, đi ngoài nhiều lần', 3),
+-- (N'nóng rát dạ dày, ợ nóng', 3),
+-- (N'đau bụng quanh rốn, tiêu chảy', 3),
+-- (N'táo bón kéo dài, đau bụng âm ỉ', 3),
+-- (N'đi ngoài phân lỏng, đau bụng', 3),
+-- (N'ăn vào bị đau dạ dày, buồn nôn', 3);
+-- GO
+-- INSERT INTO symptom_dataset ([text], department_id) VALUES
+-- (N'ho nhiều, khó thở, thở khò khè', 4),
+-- (N'ho kéo dài 2 tuần, có đờm', 4),
+-- (N'khó thở, tức ngực khi hít sâu', 4),
+-- (N'ho khan, đau ngực khi ho', 4),
+-- (N'sốt, ho, đau ngực, mệt mỏi', 4),
+-- (N'khó thở khi nằm, ho về đêm', 4),
+-- (N'thở dốc khi vận động nhẹ', 4),
+-- (N'ho có đờm xanh, sốt', 4),
+-- (N'viêm phế quản, ho nhiều', 4),
+-- (N'cảm giác hụt hơi, thở không đủ', 4);
+-- GO
+-- INSERT INTO symptom_dataset ([text], department_id) VALUES
+-- (N'ngứa da, nổi mẩn đỏ, lan rộng', 5),
+-- (N'nổi mề đay, ngứa nhiều về đêm', 5),
+-- (N'mụn viêm sưng đỏ, đau', 5),
+-- (N'da bong tróc, khô rát', 5),
+-- (N'nổi ban đỏ sau khi ăn hải sản', 5),
+-- (N'ngứa vùng bẹn, nổi hồng ban', 5),
+-- (N'viêm da dị ứng, ngứa, đỏ da', 5),
+-- (N'nổi mụn nước, rát và ngứa', 5),
+-- (N'da nổi đốm đỏ, ngứa', 5),
+-- (N'nấm da, ngứa, tróc vảy', 5);
+-- GO
+-- INSERT INTO symptom_dataset ([text], department_id) VALUES
+-- (N'đau đầu dữ dội, chóng mặt', 6),
+-- (N'hoa mắt, chóng mặt khi đứng lên', 6),
+-- (N'tê bì tay chân, yếu sức', 6),
+-- (N'đau nửa đầu, buồn nôn', 6),
+-- (N'mất ngủ kéo dài, đau đầu', 6),
+-- (N'chóng mặt quay cuồng', 6),
+-- (N'tê tay, đau lan xuống ngón', 6),
+-- (N'nhức đầu kèm mờ mắt', 6),
+-- (N'hay quên, khó tập trung', 6),
+-- (N'cảm giác tê nửa mặt, đau đầu', 6);
+-- GO
+-- INSERT INTO symptom_dataset ([text], department_id) VALUES
+-- (N'đau lưng dưới, khó cúi người', 7),
+-- (N'đau khớp gối khi đi lại', 7),
+-- (N'đau vai gáy, cứng cổ', 7),
+-- (N'đau cơ sau vận động, nhức mỏi', 7),
+-- (N'đau cổ tay, tê ngón tay', 7),
+-- (N'đau khớp cổ chân, sưng nhẹ', 7),
+-- (N'đau thắt lưng lan xuống chân', 7),
+-- (N'đau đầu gối khi lên cầu thang', 7),
+-- (N'nhức mỏi toàn thân, đau cơ', 7),
+-- (N'đau vai khi giơ tay lên cao', 7);
+-- GO
+-- INSERT INTO symptom_dataset ([text], department_id) VALUES
+-- (N'sốt nhẹ, mệt mỏi, đau nhức người', 8),
+-- (N'mệt kéo dài, ăn kém', 8),
+-- (N'chán ăn, khó ngủ, uể oải', 8),
+-- (N'sốt 2 ngày, đau đầu nhẹ', 8),
+-- (N'đau nhức toàn thân, ớn lạnh', 8),
+-- (N'mệt, chóng mặt nhẹ', 8),
+-- (N'đau bụng nhẹ không rõ vị trí', 8),
+-- (N'ho nhẹ, sốt nhẹ, mệt', 8),
+-- (N'người nóng sốt, đau cơ', 8),
+-- (N'uể oải, mệt không rõ nguyên nhân', 8);
+-- GO
+-- USE medical_ai;
+-- GO
+-- CREATE TABLE doctors (
+--     id INT IDENTITY(1,1) PRIMARY KEY,
+--     full_name NVARCHAR(120) NOT NULL,
+--     department_id INT NOT NULL,
+--     phone NVARCHAR(20),
+--     email NVARCHAR(100),
+--     CONSTRAINT fk_doctor_department
+--         FOREIGN KEY (department_id) REFERENCES departments(id)
+-- );
+-- GO
+-- USE medical_ai;
+-- GO
+-- INSERT INTO doctors (full_name, department_id, phone, email) VALUES
+-- -- ===== Tai Mũi Họng (1) =====
+-- (N'BS Nguyễn Văn An', 1, N'0901000001', N'an.tmh@hospital.com'),
+-- (N'BS Trần Thị Bình', 1, N'0901000002', N'binh.tmh@hospital.com'),
+-- (N'BS Lê Văn Cường', 1, N'0901000003', N'cuong.tmh@hospital.com'),
+-- (N'BS Phạm Thị Dung', 1, N'0901000004', N'dung.tmh@hospital.com'),
+
+-- -- ===== Tim mạch (2) =====
+-- (N'BS Hoàng Văn Đức', 2, N'0902000001', N'duc.tm@hospital.com'),
+-- (N'BS Nguyễn Thị Hạnh', 2, N'0902000002', N'hanh.tm@hospital.com'),
+-- (N'BS Trần Văn Khánh', 2, N'0902000003', N'khanh.tm@hospital.com'),
+-- (N'BS Lê Thị Lan', 2, N'0902000004', N'lan.tm@hospital.com'),
+
+-- -- ===== Tiêu hóa (3) =====
+-- (N'BS Phạm Văn Minh', 3, N'0903000001', N'minh.th@hospital.com'),
+-- (N'BS Nguyễn Thị Ngọc', 3, N'0903000002', N'ngoc.th@hospital.com'),
+-- (N'BS Đặng Văn Phúc', 3, N'0903000003', N'phuc.th@hospital.com'),
+-- (N'BS Trần Thị Quỳnh', 3, N'0903000004', N'quynh.th@hospital.com'),
+
+-- -- ===== Hô hấp (4) =====
+-- (N'BS Võ Văn Sơn', 4, N'0904000001', N'son.hh@hospital.com'),
+-- (N'BS Lê Thị Thu', 4, N'0904000002', N'thu.hh@hospital.com'),
+-- (N'BS Nguyễn Văn Toàn', 4, N'0904000003', N'toan.hh@hospital.com'),
+-- (N'BS Phan Thị Yến', 4, N'0904000004', N'yen.hh@hospital.com'),
+
+-- -- ===== Da liễu (5) =====
+-- (N'BS Trần Văn Long', 5, N'0905000001', N'long.dl@hospital.com'),
+-- (N'BS Lê Thị Mai', 5, N'0905000002', N'mai.dl@hospital.com'),
+-- (N'BS Nguyễn Văn Phú', 5, N'0905000003', N'phu.dl@hospital.com'),
+-- (N'BS Phạm Thị Hoa', 5, N'0905000004', N'hoa.dl@hospital.com'),
+
+-- -- ===== Thần kinh (6) =====
+-- (N'BS Đỗ Văn Hưng', 6, N'0906000001', N'hung.tk@hospital.com'),
+-- (N'BS Nguyễn Thị Linh', 6, N'0906000002', N'linh.tk@hospital.com'),
+-- (N'BS Trần Văn Nam', 6, N'0906000003', N'nam.tk@hospital.com'),
+-- (N'BS Lý Thị Hồng', 6, N'0906000004', N'hong.tk@hospital.com'),
+
+-- -- ===== Cơ xương khớp (7) =====
+-- (N'BS Vũ Văn Hải', 7, N'0907000001', N'hai.cxk@hospital.com'),
+-- (N'BS Nguyễn Thị Oanh', 7, N'0907000002', N'oanh.cxk@hospital.com'),
+-- (N'BS Trần Văn Phong', 7, N'0907000003', N'phong.cxk@hospital.com'),
+-- (N'BS Lê Thị Thanh', 7, N'0907000004', N'thanh.cxk@hospital.com'),
+
+-- -- ===== Nội tổng quát (8) =====
+-- (N'BS Nguyễn Văn Quang', 8, N'0908000001', N'quang.ntq@hospital.com'),
+-- (N'BS Trần Thị Yến', 8, N'0908000002', N'yen.ntq@hospital.com'),
+-- (N'BS Phạm Văn Thái', 8, N'0908000003', N'thai.ntq@hospital.com'),
+-- (N'BS Lê Thị Hương', 8, N'0908000004', N'huong.ntq@hospital.com');
+-- GO
+-- USE medical_ai;
+-- GO
+
+-- IF OBJECT_ID('dbo.doctor_slots', 'U') IS NOT NULL
+--     DROP TABLE dbo.doctor_slots;
+-- GO
+
+-- CREATE TABLE doctor_slots (
+--     id BIGINT IDENTITY(1,1) PRIMARY KEY,
+--     doctor_id INT NOT NULL,
+--     slot_start DATETIME NOT NULL,
+--     slot_end   DATETIME NOT NULL,
+--     is_booked BIT NOT NULL DEFAULT 0,
+--     created_at DATETIME NOT NULL DEFAULT GETDATE(),
+--     CONSTRAINT fk_slot_doctor
+--         FOREIGN KEY (doctor_id) REFERENCES doctors(id)
+-- );
+-- GO
+-- DECLARE @BaseDate DATE = CONVERT(date, GETDATE());  -- hôm nay (theo server time)
+
+-- ;WITH days AS (
+--     SELECT 0 AS day_offset
+--     UNION ALL SELECT 1
+--     UNION ALL SELECT 2
+-- ),
+-- hours AS (
+--     -- 6 slot: 09-10, 10-11, 11-12, 14-15, 15-16, 16-17
+--     SELECT 9  AS h_start, 10 AS h_end
+--     UNION ALL SELECT 10, 11
+--     UNION ALL SELECT 11, 12
+--     UNION ALL SELECT 14, 15
+--     UNION ALL SELECT 15, 16
+--     UNION ALL SELECT 16, 17
+-- )
+-- INSERT INTO doctor_slots (doctor_id, slot_start, slot_end)
+-- SELECT
+--     d.id AS doctor_id,
+--     DATEADD(HOUR, h.h_start, CAST(DATEADD(DAY, dy.day_offset, @BaseDate) AS DATETIME)) AS slot_start,
+--     DATEADD(HOUR, h.h_end,   CAST(DATEADD(DAY, dy.day_offset, @BaseDate) AS DATETIME)) AS slot_end
+-- FROM doctors d
+-- CROSS JOIN days dy
+-- CROSS JOIN hours h
+-- ORDER BY d.id, dy.day_offset, h.h_start;
+-- GO
+-- USE medical_ai;
+-- GO
+
+-- IF OBJECT_ID('dbo.appointments', 'U') IS NOT NULL
+--     DROP TABLE dbo.appointments;
+-- GO
+
+-- CREATE TABLE appointments (
+--     id BIGINT IDENTITY(1,1) PRIMARY KEY,
+--     patient_name NVARCHAR(120) NOT NULL,
+--     patient_phone NVARCHAR(20) NULL,
+--     doctor_id INT NOT NULL,
+--     slot_id BIGINT NOT NULL UNIQUE,          -- 1 slot chỉ có 1 appointment
+--     status NVARCHAR(20) NOT NULL DEFAULT N'BOOKED',  -- BOOKED/CANCELLED/DONE
+--     created_at DATETIME NOT NULL DEFAULT GETDATE(),
+--     CONSTRAINT fk_appt_doctor FOREIGN KEY (doctor_id) REFERENCES doctors(id),
+--     CONSTRAINT fk_appt_slot   FOREIGN KEY (slot_id) REFERENCES doctor_slots(id)
+-- );
+-- GO
+--- Book lịch mới ---
+-- CREATE OR ALTER PROCEDURE sp_book_appointment
+--     @SlotId BIGINT,
+--     @PatientName NVARCHAR(120),
+--     @PatientPhone NVARCHAR(20) = NULL
+-- AS
+-- BEGIN
+--     SET NOCOUNT ON;
+--     SET XACT_ABORT ON;
+
+--     BEGIN TRAN;
+
+--     DECLARE @DoctorId INT;
+
+--     -- Lock slot để tránh 2 người đặt cùng lúc
+--     SELECT @DoctorId = doctor_id
+--     FROM doctor_slots WITH (UPDLOCK, HOLDLOCK)
+--     WHERE id = @SlotId AND is_booked = 0;
+
+--     IF @DoctorId IS NULL
+--     BEGIN
+--         ROLLBACK TRAN;
+--         RAISERROR (N'Slot không tồn tại hoặc đã được đặt.', 16, 1);
+--         RETURN;
+--     END
+
+--     -- Đánh dấu slot đã được đặt
+--     UPDATE doctor_slots
+--     SET is_booked = 1
+--     WHERE id = @SlotId;
+
+--     -- Tạo appointment
+--     INSERT INTO appointments (patient_name, patient_phone, doctor_id, slot_id, status)
+--     VALUES (@PatientName, @PatientPhone, @DoctorId, @SlotId, N'BOOKED');
+
+--     COMMIT TRAN;
+
+--     SELECT SCOPE_IDENTITY() AS appointment_id;
+-- END;
+-- GO
+-- --- Huỷ lịch ---
+-- CREATE OR ALTER PROCEDURE sp_cancel_appointment
+--     @AppointmentId BIGINT
+-- AS
+-- BEGIN
+--     SET NOCOUNT ON;
+--     SET XACT_ABORT ON;
+
+--     BEGIN TRAN;
+
+--     DECLARE @SlotId BIGINT;
+
+--     SELECT @SlotId = slot_id
+--     FROM appointments WITH (UPDLOCK, HOLDLOCK)
+--     WHERE id = @AppointmentId AND status = N'BOOKED';
+
+--     IF @SlotId IS NULL
+--     BEGIN
+--         ROLLBACK TRAN;
+--         RAISERROR (N'Lịch hẹn không tồn tại hoặc không thể hủy.', 16, 1);
+--         RETURN;
+--     END
+
+--     UPDATE appointments
+--     SET status = N'CANCELLED'
+--     WHERE id = @AppointmentId;
+
+--     UPDATE doctor_slots
+--     SET is_booked = 0
+--     WHERE id = @SlotId;
+
+--     COMMIT TRAN;
+-- END;
+-- GO
+-- query dùng cho web --
+-- USE medical_ai;
+-- GO
+
+-- DECLARE @DepartmentId INT = 3;                 -- ví dụ Tiêu hóa
+-- DECLARE @DoctorId INT = 1;                     -- ví dụ bác sĩ id=1
+-- DECLARE @Date DATE = CONVERT(date, GETDATE()); -- hôm nay
+
+-- -- 1) bác sĩ theo khoa
+-- SELECT doc.id, doc.full_name, doc.phone, doc.email
+-- FROM doctors doc
+-- WHERE doc.department_id = @DepartmentId
+-- ORDER BY doc.full_name;
+
+-- -- 2) slot trống theo bác sĩ + ngày
+-- SELECT s.id AS slot_id, s.slot_start, s.slot_end
+-- FROM doctor_slots s
+-- WHERE s.doctor_id = @DoctorId
+--   AND s.is_booked = 0
+--   AND CONVERT(date, s.slot_start) = @Date
+-- ORDER BY s.slot_start;
+
+-- -- 3) slot trống theo khoa + ngày
+-- SELECT 
+--     s.id AS slot_id,
+--     doc.id AS doctor_id,
+--     doc.full_name,
+--     s.slot_start,
+--     s.slot_end
+-- FROM doctor_slots s
+-- JOIN doctors doc ON s.doctor_id = doc.id
+-- WHERE doc.department_id = @DepartmentId
+--   AND s.is_booked = 0
+--   AND CONVERT(date, s.slot_start) = @Date
+-- ORDER BY s.slot_start, doc.full_name;
+-- GO
+-- SELECT TOP 1 
+--   s.id AS slot_id,
+--   s.doctor_id,
+--   doc.full_name,
+--   s.slot_start,
+--   s.slot_end
+-- FROM doctor_slots s
+-- JOIN doctors doc ON s.doctor_id = doc.id
+-- WHERE s.is_booked = 0
+-- ORDER BY s.slot_start;
+-- EXEC sp_book_appointment
+--   @SlotId = 123,
+--   @PatientName = N'Nguyễn Văn Test',
+--   @PatientPhone = N'0912345678';
+--   SELECT TOP 5 * 
+-- 1) xem 5 lịch hẹn mới nhất
+-- SELECT TOP 5 *
+-- FROM appointments
+-- ORDER BY created_at DESC;
+
+-- -- 2) xem trạng thái slot (thay 123 bằng slot_id của mày)
+-- SELECT id, is_booked, slot_start, slot_end
+-- FROM doctor_slots
+-- WHERE id = 123;
+-- DECLARE @Phone NVARCHAR(20) = N'0912345678';
+
+-- SELECT 
+--   a.id AS appointment_id,
+--   a.patient_name,
+--   a.patient_phone,
+--   d.full_name AS doctor_name,
+--   dep.name AS department,
+--   s.slot_start,
+--   s.slot_end,
+--   a.status,
+--   a.created_at
+-- FROM appointments a
+-- JOIN doctors d ON a.doctor_id = d.id
+-- JOIN departments dep ON d.department_id = dep.id
+-- JOIN doctor_slots s ON a.slot_id = s.id
+-- WHERE a.patient_phone = @Phone
+-- ORDER BY a.created_at DESC;
+SELECT d.id, d.full_name, dep.name, d.phone, d.email
+FROM dbo.doctors d
+JOIN dbo.departments dep
+    ON d.department_id = dep.id
+WHERE dep.name = N'Tai Mũi Họng';

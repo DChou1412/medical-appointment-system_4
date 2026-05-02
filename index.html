@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Medical Appointment</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app-container">
+
+    <!-- HOME SCREEN -->
+    <section id="home-screen" class="screen active">
+      <div class="hero-card">
+        <div class="hero-badge">AI Medical Appointment + System Checker</div>
+        <h1>Đặt lịch khám bệnh thông minh với AI</h1>
+        <p class="hero-text">
+          Nhập triệu chứng bằng tiếng Việt, hệ thống sẽ phân tích và gợi ý chuyên khoa phù hợp,
+          sau đó hỗ trợ bạn chọn bác sĩ và đặt lịch khám nhanh chóng.
+        </p>
+
+        <div class="hero-actions">
+          <button id="start-check-btn" class="btn btn-primary">Bắt đầu kiểm tra triệu chứng</button>
+          <button id="go-history-btn" class="btn btn-secondary">Xem lịch hẹn</button>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🧠</div>
+            <h3>AI Symptom Checker</h3>
+            <p>Phân tích mô tả triệu chứng bằng mô hình AI.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⚠️</div>
+            <h3>System Checker</h3>
+            <p>Cảnh báo nhanh nếu có dấu hiệu nguy hiểm.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">👨‍⚕️</div>
+            <h3>Doctor Recommendation</h3>
+            <p>Gợi ý bác sĩ đúng chuyên khoa phù hợp.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📅</div>
+            <h3>Appointment Booking</h3>
+            <p>Đặt lịch khám với khung giờ còn trống.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SYMPTOM SCREEN -->
+    <section id="symptom-screen" class="screen">
+      <div class="page-card">
+        <div class="topbar">
+          <button class="back-btn" data-target="home-screen">← Quay lại</button>
+          <h2>AI Symptom Checker</h2>
+        </div>
+
+        <p class="section-desc">
+          Hãy mô tả triệu chứng của bạn càng rõ càng tốt để hệ thống phân tích chính xác hơn.
+        </p>
+
+        <label for="symptomInput" class="input-label">Mô tả triệu chứng</label>
+        <textarea
+          id="symptomInput"
+          placeholder="Ví dụ: đau họng, nuốt đau, sốt nhẹ, ho khan..."
+        ></textarea>
+
+        <div class="hint-box">
+          <p><strong>Gợi ý:</strong> Có thể nêu vị trí đau, thời gian bị, mức độ đau hoặc triệu chứng đi kèm.</p>
+        </div>
+
+        <div class="action-row">
+          <button id="analyze-btn" class="btn btn-primary">Phân tích triệu chứng</button>
+          <button id="clear-symptom-btn" class="btn btn-secondary">Xóa nội dung</button>
+        </div>
+
+        <div id="loading-box" class="loading-box hidden">
+          <div class="spinner"></div>
+          <span>AI đang phân tích triệu chứng...</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULT SCREEN -->
+    <section id="result-screen" class="screen">
+      <div class="page-card">
+        <div class="topbar">
+          <button class="back-btn" data-target="symptom-screen">← Quay lại</button>
+          <h2>Kết quả phân tích</h2>
+        </div>
+
+        <p class="section-desc">
+          Hệ thống đưa ra chuyên khoa phù hợp dựa trên mô tả triệu chứng của bạn.
+        </p>
+
+        <div class="result-grid">
+          <div class="result-main-card">
+            <p class="label">Chuyên khoa đề xuất</p>
+            <h3 id="predicted-specialty">-</h3>
+          </div>
+
+          <div class="result-side-card">
+            <p class="label">Triệu chứng đã nhập</p>
+            <p id="submitted-symptom">-</p>
+          </div>
+        </div>
+
+        <div id="warning-box" class="warning-box hidden">
+          <h4>⚠ Cảnh báo</h4>
+          <p id="warning-text"></p>
+        </div>
+
+        <div class="top-predictions-box">
+          <h4>Top 3 chuyên khoa gợi ý</h4>
+          <div id="top-predictions-list" class="prediction-list"></div>
+        </div>
+
+        <div class="action-row">
+          <button id="view-doctors-btn" class="btn btn-primary">Xem bác sĩ phù hợp</button>
+          <button class="btn btn-secondary back-btn" data-target="symptom-screen">Phân tích lại</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOCTOR SCREEN -->
+    <section id="doctor-screen" class="screen">
+      <div class="page-card">
+        <div class="topbar">
+          <button class="back-btn" data-target="result-screen">← Quay lại</button>
+          <h2>Danh sách bác sĩ phù hợp</h2>
+        </div>
+
+        <p class="section-desc">Chọn bác sĩ để xem các khung giờ còn trống.</p>
+
+        <div id="doctor-list" class="doctor-grid"></div>
+      </div>
+    </section>
+
+    <!-- SLOT SCREEN -->
+    <section id="slot-screen" class="screen">
+      <div class="page-card">
+        <div class="topbar">
+          <button class="back-btn" data-target="doctor-screen">← Quay lại</button>
+          <h2>Khung giờ khám còn trống</h2>
+        </div>
+
+        <div class="summary-box">
+          <p><strong>Bác sĩ đã chọn:</strong> <span id="selected-doctor-name">-</span></p>
+          <p><strong>Chuyên khoa:</strong> <span id="selected-doctor-department">-</span></p>
+        </div>
+
+        <div id="slot-list" class="slot-grid"></div>
+      </div>
+    </section>
+
+    <!-- BOOKING SCREEN -->
+    <section id="booking-screen" class="screen">
+  <div class="page-card booking-page-card">
+    <div class="topbar">
+      <button class="back-btn" data-target="doctor-screen">← Quay lại</button>
+      <h2>Đặt lịch khám</h2>
+    </div>
+
+    <p class="section-desc">
+      Kiểm tra lại thông tin bác sĩ và khung giờ đã chọn, sau đó nhập thông tin bệnh nhân để hoàn tất đặt lịch.
+    </p>
+
+    <div class="booking-layout">
+      <div class="booking-summary-panel">
+        <div class="booking-summary-header">
+          <div class="booking-summary-icon">👨‍⚕️</div>
+          <div>
+            <h3 id="booking-doctor-name">-</h3>
+            <p id="booking-department" class="booking-subtitle">-</p>
+          </div>
+        </div>
+
+        <div class="booking-summary-list">
+          <div class="booking-summary-item">
+            <span class="booking-label">Khung giờ</span>
+            <strong id="booking-slot-time">-</strong>
+          </div>
+
+          <div class="booking-summary-item">
+            <span class="booking-label">Hình thức</span>
+            <strong>Khám trực tiếp tại cơ sở</strong>
+          </div>
+
+          <div class="booking-summary-item">
+            <span class="booking-label">Lưu ý</span>
+            <strong>Vui lòng đến trước 10–15 phút</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="booking-form-panel">
+        <h3>Thông tin bệnh nhân</h3>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="patient-name">Họ và tên</label>
+            <input type="text" id="patient-name" placeholder="Nguyễn Văn A" />
+          </div>
+
+          <div class="form-group">
+            <label for="patient-phone">Số điện thoại</label>
+            <input type="text" id="patient-phone" placeholder="09xxxxxxxx" />
+          </div>
+        </div>
+
+        <div class="booking-note-box">
+          <p>
+            Sau khi xác nhận, lịch hẹn sẽ được lưu vào hệ thống và bạn có thể tra cứu lại bằng số điện thoại.
+          </p>
+        </div>
+
+        <div class="action-row">
+          <button id="confirm-booking-btn" class="btn btn-primary">Xác nhận đặt lịch</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- CONFIRMATION SCREEN -->
+    <section id="confirmation-screen" class="screen">
+  <div class="page-card confirmation-card confirmation-card-upgraded">
+    <div class="success-icon success-icon-large">✅</div>
+    <div class="success-badge">Đặt lịch thành công</div>
+
+    <h2>Lịch hẹn của bạn đã được tạo thành công</h2>
+    <p class="section-desc confirmation-desc">
+      Hệ thống đã ghi nhận thông tin lịch khám. Bạn có thể lưu lại mã lịch hẹn hoặc tra cứu lại bằng số điện thoại.
+    </p>
+
+    <div class="confirmation-summary-grid">
+      <div class="confirmation-highlight-card">
+        <span class="booking-label">Mã lịch hẹn</span>
+        <h3>#<span id="confirmation-appointment-id">-</span></h3>
+      </div>
+
+      <div class="confirmation-info-card">
+        <div class="confirmation-row">
+          <span>Bác sĩ</span>
+          <strong id="confirmation-doctor-name">-</strong>
+        </div>
+        <div class="confirmation-row">
+          <span>Chuyên khoa</span>
+          <strong id="confirmation-department">-</strong>
+        </div>
+        <div class="confirmation-row">
+          <span>Khung giờ</span>
+          <strong id="confirmation-slot-time">-</strong>
+        </div>
+        <div class="confirmation-row">
+          <span>Bệnh nhân</span>
+          <strong id="confirmation-patient-name">-</strong>
+        </div>
+        <div class="confirmation-row">
+          <span>Số điện thoại</span>
+          <strong id="confirmation-patient-phone">-</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="action-row center">
+      <button id="go-home-from-confirmation" class="btn btn-secondary">Về trang chủ</button>
+      <button id="go-history-from-confirmation" class="btn btn-primary">Xem lịch hẹn</button>
+    </div>
+  </div>
+</section>
+
+    <!-- HISTORY SCREEN -->
+    <section id="history-screen" class="screen">
+      <div class="page-card">
+        <div class="topbar">
+          <button class="back-btn" data-target="home-screen">← Quay lại</button>
+          <h2>Lịch hẹn của tôi</h2>
+        </div>
+
+        <p class="section-desc">Nhập số điện thoại để xem các lịch hẹn đã đặt.</p>
+
+        <div class="history-search-box">
+          <input type="text" id="history-phone" placeholder="Nhập số điện thoại" />
+          <button id="search-history-btn" class="btn btn-primary">Tra cứu lịch hẹn</button>
+        </div>
+
+        <div id="history-result" class="history-result"></div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
